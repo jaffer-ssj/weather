@@ -38,6 +38,7 @@ function displayResults(weather) {
   hilow.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(
     weather.main.temp_max
   )}°c`;
+  
 }
 
 function dateBuilder(d) {
